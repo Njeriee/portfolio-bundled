@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.home{
+    
+    background: rgb(33, 33, 68);
+    background-position: center;
+    background-image: url('/src/images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode:overlay;
+    height: 100%;
+    width: 100%;
+    padding-top: 40vh;
+    // overflow: hidden;
+    align-items: center;
+    text-align: center;
+    // styling nested elements
+    &_name{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 5rem;
+        padding-bottom: 1rem;
+        margin-top: 1rem;
+        color: limegreen;
+        z-index: 1;
+    }
+    
+}

@@ -1,0 +1,19 @@
+$primary-color: #021118;
+
+
+@mixin transition-ease {
+    transition:all 0.5s ease-in-out;
+    
+}
+// function to set a light and a dark theme depending on the display
+@function set-text-color($color){
+    @if (lightness($color)>
+    60%){
+        @return #0000;
+    }
+        @else {
+            @return #fff;
+        }
+
+    
+}
